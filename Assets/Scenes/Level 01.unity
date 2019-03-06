@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
       value: 0.07143402
       objectReference: {fileID: 0}
+    - target: {fileID: 321642857, guid: 4adaf138b168e4f44bc31dc0297d2b96, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 08ab55ce2319fe849a51751acdf1115f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4adaf138b168e4f44bc31dc0297d2b96, type: 3}
 --- !u!1 &120088536

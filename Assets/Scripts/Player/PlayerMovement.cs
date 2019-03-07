@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         // Store the input axes.
         float h = Input.GetAxisRaw ("Horizontal");
         float v = Input.GetAxisRaw ("Vertical");
-
+		transform.Translate(Input.acceleration.x, 0, -Input.acceleration.z);
         // Move the player around the scene.
         Move (h, v);
 
